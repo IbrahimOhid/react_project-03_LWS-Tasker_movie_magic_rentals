@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./Header";
-import MovieList from "./MovieList";
+import MovieList from "./movieCompo/MovieList";
 import Sidebar from "./Sidebar";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <>
       <Header />
       <main>
-        <div class="container grid lg:grid-cols-[218px_1fr] gap-[3.5rem]">
+        <div className="container grid lg:grid-cols-[218px_1fr] gap-[3.5rem]">
           <Sidebar/>
           <MovieList/>
         </div>

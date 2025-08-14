@@ -14,7 +14,7 @@ const Header = () => {
         <ul className="flex items-center space-x-5">
           <li>
             <a
-              className="bg-primary/20 dark:bg-primary/[7%] rounded-lg backdrop-blur-[2px] p-1 inline-block"
+              className="bg-[#00D991]/20 dark:bg-[#00D991]/[7%] rounded-lg backdrop-blur-[2px] p-1 inline-block"
               href="#"
             >
               <img src={Ring} width={24} height={24} alt="ring" />
@@ -22,7 +22,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              className="bg-primary/20 dark:bg-primary/[7%] rounded-lg backdrop-blur-[2px] p-1 inline-block"
+              className="bg-[#00D991]/20 dark:bg-[#00D991]/[7%] rounded-lg backdrop-blur-[2px] p-1 inline-block"
               href="#"
             >
               <img src={Moon} width={24} height={24} alt="moon" />
@@ -30,7 +30,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              className="bg-primary/20 dark:bg-primary/[7%] rounded-lg backdrop-blur-[2px] p-1 inline-block"
+              className="bg-[#00D991]/20 dark:bg-[#00D991]/[7%] rounded-lg backdrop-blur-[2px] p-1 inline-block"
               href="#"
             >
               <img
