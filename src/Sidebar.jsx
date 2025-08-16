@@ -1,10 +1,9 @@
 import React from "react";
-import Trending from './assets/icons/trending.svg';
-import NewRelease from './assets/icons/newRelease.svg';
-import ComingSoon from './assets/icons/comingSoon.svg';
-import Favorites from './assets/icons/favorite.svg';
-import WatchLater from './assets/icons/watchLater.svg'
-
+import Trending from "./assets/icons/trending.svg";
+import NewRelease from "./assets/icons/newRelease.svg";
+import ComingSoon from "./assets/icons/comingSoon.svg";
+import Favorites from "./assets/icons/favorite.svg";
+import WatchLater from "./assets/icons/watchLater.svg";
 
 const Sidebar = () => {
   return (
@@ -17,12 +16,7 @@ const Sidebar = () => {
               className="flex items-center space-x-2 px-5 py-3.5 rounded-lg bg-[#00D991] text-black"
               href="#"
             >
-              <img
-                src={Trending}
-                width={24}
-                height={24}
-                alt="trending"
-              />
+              <img src={Trending} width={24} height={24} alt="trending" />
               <span>Trending</span>
             </a>
           </li>
@@ -31,12 +25,7 @@ const Sidebar = () => {
               className="flex items-center space-x-2 px-5 py-3.5 rounded-lg"
               href="#"
             >
-              <img
-                src={NewRelease}
-                width={24}
-                height={24}
-                alt="newRelease"
-              />
+              <img src={NewRelease} width={24} height={24} alt="newRelease" />
               <span>New Releases</span>
             </a>
           </li>
@@ -45,12 +34,7 @@ const Sidebar = () => {
               className="flex items-center space-x-2 px-5 py-3.5 rounded-lg"
               href="#"
             >
-              <img
-                src={ComingSoon}
-                width={24}
-                height={24}
-                alt="comingSoon"
-              />
+              <img src={ComingSoon} width={24} height={24} alt="comingSoon" />
               <span>Coming Soon</span>
             </a>
           </li>
@@ -59,12 +43,7 @@ const Sidebar = () => {
               className="flex items-center space-x-2 px-5 py-3.5 rounded-lg"
               href="#"
             >
-              <img
-                src={Favorites}
-                width={24}
-                height={24}
-                alt=""
-              />
+              <img src={Favorites} width={24} height={24} alt="" />
               <span>Favorites</span>
             </a>
           </li>
@@ -73,12 +52,7 @@ const Sidebar = () => {
               className="flex items-center space-x-2 px-5 py-3.5 rounded-lg"
               href="#"
             >
-              <img
-                src={WatchLater}
-                width={24}
-                height={24}
-                alt=""
-              />
+              <img src={WatchLater} width={24} height={24} alt="" />
               <span>Watch Later</span>
             </a>
           </li>
