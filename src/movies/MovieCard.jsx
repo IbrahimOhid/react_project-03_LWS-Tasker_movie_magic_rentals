@@ -48,14 +48,14 @@ const MovieCard = ({ movie }) => {
 
             <Rating value={movie.rating} />
 
-            <a
-              className="bg-[#00D991] rounded-lg py-2 px-5 flex items-center justify-center gap-2 text-[#171923] font-semibold text-sm"
+            <button
+              className="bg-[#00D991] rounded-lg py-2 px-5 flex items-center justify-center gap-2 text-[#171923] font-semibold text-sm cursor-pointer"
               href="#"
               onClick={(e) => handleAddMovie(e, movie)}
             >
               <img src={Tag} alt="" />
               <span>${movie.price} | Add to Cart</span>
-            </a>
+            </button>
           </figcaption>
         </a>
       </figure>
